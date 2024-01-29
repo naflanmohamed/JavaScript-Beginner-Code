@@ -1,0 +1,10 @@
+//for get output Use console.log() inside parenthesis() you can use " " or ' ' 
+
+console.log("hello World");
+console.log('hello World');
+
+console.log("%cHi! John", "color:white; font-size:40px");
+console.log("Hello" + "World! " + "JavaScript");
+
+
+console.log("hello" + 2);
