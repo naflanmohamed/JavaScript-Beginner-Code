@@ -1,14 +1,15 @@
 
-function two() {
-    return 2;
+class Person {
+    sayHello() {
+        console.log("Hello");
+    }
 }
 
-function one() {
-    return 1;
+class Friend extends Person {
+    sayHello() {
+        console.log("Hey");
+    }
 }
 
-function calculate(initialValue, incrementValue) {
-    return initialValue() + incrementValue() + incrementValue();
-}
-
-console.log(calculate(two, one));
+var result = new Friend();
+result.sayHello();
