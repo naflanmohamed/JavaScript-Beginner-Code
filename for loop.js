@@ -1,9 +1,3 @@
-const car2 = {
-    speed: 200,
-    color: "red"
-}
-console.log(Object.entries(car2)); // ['speed','color']
-
 var clothingItem = {
     price: 50,
     color: 'beige',
