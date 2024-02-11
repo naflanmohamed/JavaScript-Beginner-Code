@@ -45,7 +45,7 @@ const cycle1 = {
     speed: 200,
     color: 'yellow'
 }
-const cycle2 = {...car1};
+const cycle2 = {...car1}; // copy cycle1 into cycle2
 
 cycle1.speed = 201
 
