@@ -1,6 +1,6 @@
 
-function count(...basket) {
-    console.log(basket.length)
+function count(...food) {
+    console.log(food.length)
 }
 
-count(10, 9, 8, 7, 6);
+count("Burgers", "Fries", null);
